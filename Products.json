@@ -1,0 +1,45 @@
+{
+"products":[ {
+  "name":"OPPO F11 Pro",
+  "brand":"OPPO",
+  "category":"mobile"
+  "price":23990,
+  "colors":["Blue","Black"],
+  "RAM:["4GB","6GB"]  ,
+  "ROM":"128GB"
+  },{
+  "name":"Realme 3i",
+  "brand":"Real Me",
+  "category":"mobile"
+  "price":9999,
+  "colors":["Blue","Black"],
+  "RAM:["2GB","4GB"]  ,
+  "ROM":"64GB"
+  },{
+  "name":"IPhone XR",
+  "brand":"Apple",
+  "category":"mobile"
+  "price":64999,
+  "colors":["Blue","Black"],
+  "RAM:["2GB","4GB"]  ,
+  "ROM":"128GB"
+  },{
+  "name":"Redmi Note 7 pro",
+  "brand":"Redmi",
+  "category":"mobile"
+  "price":13999,
+  "colors":["Blue","Black"],
+  "RAM:["4GB","6GB"]  ,
+  "ROM":"64GB"
+  },
+  {
+  "name":"Samsung Galaxy s8",
+  "brand":"Samsung",
+  "category":"mobile"
+  "price":53990,
+  "colors":["Blue","Black"],
+  "RAM:["4GB","6GB"]  ,
+  "ROM":"128GB"
+  }
+]
+}
