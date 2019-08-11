@@ -1,0 +1,19 @@
+
+
+<br/>
+<div *ngFor="let cart of cartItems">
+  Name:{{cart.name}}<br/>
+  brand:{{cart.brand}}<br/>
+  rating:{{cart.rating}}<br/>
+  quantity:{{cart.quantity}}<br/>
+  <br/>
+  <button (click)="remove(cart)">Remove Item</button>
+  <button (click)="increaseQuantity(cart)">+</button>
+  <button (click)="decreaseQuantity(cart)">-</button>
+  <hr/>
+</div>
+Total Amount :<span>{{amount}}</span>
+
+<button (click)="payment()" style="float: right: ">pay</button>
+
+

@@ -1,0 +1,17 @@
+<mat-radio-group aria-label="Select an option">
+  <mat-radio-button value="creditcard">Credit Card</mat-radio-button>
+  <br/>
+  <mat-radio-button value="DebitCard">DebitCard</mat-radio-button>
+  <br/>
+  <mat-radio-button value="creditcard">Net Banking</mat-radio-button>
+  <br/>
+  <mat-radio-button value="DebitCard">UPI</mat-radio-button>
+</mat-radio-group>
+<input [(ngModel)]="captchaVal" name="captchaVal" />
+<button (click)="refresh()">refresh</button>
+<span style="background-image:url(assets/captcha.PNG);padding: 10px 10px 10px 10px">{{captcha}}</span>
+<button (click)="pay()" [disabled]="captchaVal==null || captchaVal==''">pay</button>
+
+
+
+

@@ -1,0 +1,13 @@
+<br/>
+{{count}}
+<input type="text" name="searchText" [(ngModel)]="searchText"/>
+<button (click)="search()">Search</button>
+<div *ngFor="let product of products">
+  Name:{{product.name}}<br/>
+  brand:{{product.brand}}<br/>
+  rating:{{product.rating}}<br/>
+  <br/>
+  <button (click)="addToCart(product)">Add to Cart</button>
+  <hr/>
+  
+</div>

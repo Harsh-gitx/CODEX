@@ -1,0 +1,11 @@
+<pre>
+<form action="" method="get" [formGroup]="registerForm">
+    name:<input type="text" name="name" [(ngModel)]="user.name"  formControlName="name">
+    password:<input type="password" name="password" [(ngModel)]="user.password" formControlName="pass">
+    confirmPass:<input type="password" name="confirmPass" [(ngModel)]="user.confirmPass" formControlName="confirmPass">
+    email:<input type="email" name="email" [(ngModel)]="user.email" formControlName="email">
+    mobile:<input type="mobile" name="mobile" [(ngModel)]="user.mobile" formControlName="mobile">
+    <button (click)="register()" [disabled]="registerForm.invalid">Register</button>
+    <button>Cancel</button>
+</form>
+</pre>

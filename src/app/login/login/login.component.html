@@ -1,0 +1,21 @@
+<pre>
+<form  method="get">
+
+    <mat-form-field class="example-full-width">
+        <input matInput placeholder="email" name="name" [(ngModel)]="user.email">
+      </mat-form-field>
+
+  <!-- username:<input type="text" name="name" [(ngModel)]="user.email" > -->
+  <br/> 
+  password:<input type="password" name="password" [(ngModel)]="user.password" >
+  <br/>
+
+  <span *ngIf="invalidUser">Invalid Credentials</span>
+ <button mat-raised-button color="primary" (click)="login()">login</button>
+ <button mat-raised-button color="warn" type="reset">cancel</button>
+
+
+
+<span>New User? Register <button (click)="navigateToRegister()">Here</button></span> 
+</form>
+</pre>

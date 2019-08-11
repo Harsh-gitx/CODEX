@@ -1,0 +1,12 @@
+<!-- add mattoolbar-->
+<div style="background: #009688;height:40px;">
+    <span>Digital shop</span>
+&nbsp;
+<span>Welcome : {{userName}}</span>
+<button (click)="logout()" style="float: right">logout</button>
+<span></span>
+<button (click)="navigateToCart()" style="float: right">cart</button>
+
+</div>
+<router-outlet></router-outlet>
+<!-- <app-product (event)="fn()"></app-product> -->
