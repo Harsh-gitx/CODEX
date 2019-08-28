@@ -19,12 +19,12 @@ const routes:Routes=[
   {
     path:'home',component:HomeComponent,
     canActivate:[SecurityGuard],
-    loadChildren:'path:product'
-// children:[{path:'product',component:ProductComponent},
-// {path:'payment',component:PaymentComponent},
-// {path:'cart',component:CartComponent}
+//    loadChildren:'path:product'
+children:[{path:'product',component:ProductComponent},
+{path:'payment',component:PaymentComponent},
+{path:'cart',component:CartComponent}
 
-// ]
+]
 
   },
   {
